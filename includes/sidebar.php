@@ -14,6 +14,7 @@ $navigation = [
     ['schedules/index.php', 'Schedules', '◷'],
     ['staff/index.php', 'Staff', '♙'],
     ['reports/index.php', 'Reports', '▥'],
+    ['documentation/download.php', 'Documentation', '▣'],
 ];
 ?>
 <aside class="sidebar">

@@ -28,6 +28,10 @@ The default database connection is `127.0.0.1:3306`, database `hotel_maintenance
 - Summary reports, low-stock reporting, repair history, and print-friendly output
 - CSRF-protected form submissions and prepared SQL statements
 
+## Downloadable documentation
+
+The project documentation is available as a downloadable Word file in the app root at `Hotel_Maintenance_Documentation.docx` and can also be downloaded from the dashboard after signing in.
+
 ## Notes
 
 This starter app is intended for a trusted, locally hosted hotel operations environment. Configure HTTPS, least-privilege database credentials, backups, and your organization's access policies before deploying it publicly.

@@ -23,6 +23,7 @@ $recentOrders = $pdo->query('SELECT w.id, w.title, w.priority, w.status, w.due_d
 require APP_ROOT . '/includes/header.php';
 ?>
 <section class="welcome-banner"><div><p class="eyebrow">TUESDAY, <?= e(strtoupper(date('F j, Y'))) ?></p><h1>A thoughtful stay starts behind the scenes.</h1><p>Here’s what’s happening across your property today.</p></div><div class="banner-flower">✿</div></section>
+<div class="action-row" style="margin: 20px 0 0;"><a class="button primary-button" href="<?= e(app_url('documentation/download.php')) ?>" download>Download project documentation</a></div>
 <div class="page-heading compact-heading"><div><p class="eyebrow">AT A GLANCE</p><h2>Property overview</h2></div></div>
 <section class="metrics-grid">
     <?php foreach ($metrics as $index => [$label, $table, $column, $link, $description]): ?>
